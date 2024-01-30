@@ -1,0 +1,40 @@
+Sref = 0.290053 
+Cref = 0.171908 
+Bref = 2.200000 
+X_cg = 0.000000 
+Y_cg = -0.000003 
+Z_cg = 0.006611 
+Mach = 0.000000 
+AoA =6.0000000 
+Beta =2.0000000 
+Vinf =23.6500000 
+Rho = 1.210000 
+ReCref = 10000000.000000 
+ClMax = -1.000000 
+MaxTurningAngle = -1.000000 
+Symmetry = NO 
+FarDist = -1.000000 
+NumWakeNodes = 32 
+WakeIters = 4 
+NumberOfControlGroups = 3 
+Elevators
+WingGeom_Surf0_Elevators,WingGeom_Surf1_Elevators
+1, -1
+2 
+Outerons
+WingGeom_Surf0_Outerons,WingGeom_Surf1_Outerons
+1, 1
+2 
+Innerons
+WingGeom_Surf0_Innerons,WingGeom_Surf1_Innerons
+1, 1
+2 
+TimeStep = -1 
+NumberOfTimeSteps = -2 
+Preconditioner = Matrix 
+Karman-Tsien Correction = N 
+Stability Type = 0 
+Num Unsteady Groups = 3 
+Num Unsteady Props = 2 
+NumberOfQuadTrees = 1 
+1 2 0.000000 
