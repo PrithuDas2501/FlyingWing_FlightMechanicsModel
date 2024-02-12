@@ -49,7 +49,7 @@ function aeroTables = load_aeroTables
 %   The return variable is a data structure aeroTables.(coeff) for each aero coefficients.
 % ==============================================================================================
 %% Load Coefficients
-load('BiomT1WithPropCoeffCorrect.mat', 'DATA_WITH_PROP');
+load('BiomT1WithPropCoeff_13FEB.mat', 'DATA_WITH_PROP');
 alpha_values = 1:2:5;
 beta_values = -2:2:2;
 rrpm = linspace(1500,4000,5);
